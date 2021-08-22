@@ -7,6 +7,7 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		</meta>
 		<style>
+			* {box-sizing: border-box;}
 			.topnav {
 				background-color: #333;
 				overflow: hidden;
@@ -27,14 +28,58 @@
 				background-color: #00FF00;
 				color: black;
 			}
+			.topnav .search-container {
+				float: right;
+			}
+			.topnav input[type=text] {
+				padding: 6px;
+				margin-top: 8px;
+				font-size: 17px;
+				border: none;
+			}
+			.topnav .search-container button {
+				float: right;
+				padding: 6px 10px;
+				margin-top: 8px;
+				margin-right: 16px;
+				background: #333;
+				font-size: 17px;
+				border: none;
+				cursor: pointer;
+			}
+			.topnav .search-container button:hover {
+				background: #ccc;
+			}
+			@media screen and (max-width: 600px) {
+				.topnav .search-container {
+					float: none;
+				}
+					.topnav a, .topnav input[type=text], .topnav .search-container button {
+						float: none;
+						display: block;
+						text-align: left;
+						width: 100%;
+						margin: 0;
+						padding: 14px;
+					}
+					.topnav input[type=text] {
+						border: 1px solid #ccc;  
+					}
+			}
 		</style>
 	</head>
 	<body style="background-color:black">
 		<div class="topnav"><b>
 			<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-			  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-			  <a href=""><i class="fa fa-fw fa-envelope"></i> Contact</a>
-			  <a href="/user/login.html"><i class="fa fa-fw fa-user"></i>Login</a>
+			<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+			<a href=""><i class="fa fa-fw fa-envelope"></i> Contact</a>
+			<a href="/user/login.html"><i class="fa fa-fw fa-user"></i>Login</a>
+			<div class="search-container">
+				<form action="/action_page.php">
+					<input type="text" placeholder="Search.." name="search">
+					<button type="submit"><b><font color="white"><i class="fa fa-search"></i></font></b></button>
+				</form>
+			</div>
 		</b></div>
 		<h1><center><font color="white"><b>Hello Welcome</b></font></center></h1>
 	</body>
