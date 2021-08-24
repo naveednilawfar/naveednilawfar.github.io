@@ -82,8 +82,12 @@
 			</div>
 		</b></div>
 		<h1><center><font color="white"><b>Hello Welcome</b></font></center></h1>
-		<% import time %>
-		<% stored_time = time.strftime("%d:%m:%y",time.localtime(time.time())) %>
-		<% print(stored_time) %>
 	</body>
 </html>
+
+py
+
+def greet():
+    alert("Hello " + document.getElementById("name-box").value + "!")
+
+document.getElementById("greet-button").addEventListener('click', greet)
