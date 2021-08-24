@@ -1,86 +1,84 @@
-<?php
-echo '<!DOCTYPE HTML>';
-echo '<html>';
-echo '<head>';
-echo '<title>Naveed Nilawfar</title>';
-echo '<meta>';
-echo '<link rel='icon' type='image/x-icon' href='favicon.ico' />';
-echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">';
-echo '</meta>';
-echo '<style>';
-echo '* {box-sizing: border-box;}';
-echo '.topnav {';
-echo 'background-color: #333;';
-echo 'overflow: hidden;';
-echo '}';
-echo '.topnav a {';
-echo 'float: left;';
-echo 'color: #FFFFFF;';
-echo 'text-align: center;';
-echo 'padding: 14px 16px;';
-echo 'text-decoration: none;';
-echo 'font-size: 17px;';
-echo '}';
-echo '.topnav a:hover {';
-echo 'background-color: #000000;';
-echo 'color: white;';
-echo '}';
-echo '.topnav a.active {';
-echo 'background-color: #00FF00;';
-echo 'color: black;';
-echo '}';
-echo '.topnav .search-container {';
-echo 'float: right;';
-echo '}';
-echo '.topnav input[type=text] {';
-echo 'padding: 6px;';
-echo 'margin-top: 8px;';
-echo 'font-size: 17px;';
-echo 'border: none;';
-echo '}';
-echo '.topnav .search-container button {';
-echo 'float: right;';
-echo 'padding: 6px 10px;';
-echo 'margin-top: 8px;';
-echo 'margin-right: 16px;';
-echo 'background: #333;';
-echo 'font-size: 17px;';
-echo 'border: none;';
-echo 'cursor: pointer;';
-echo '}';
-echo '.topnav .search-container button:hover {';
-echo 'background: #ccc;';
-echo '}';
-echo '@media screen and (max-width: 600px) {';
-echo '.topnav .search-container {';
-echo 'float: none;';
-echo '}';
-echo '.topnav a, .topnav input[type=text], .topnav .search-container button {';
-echo 'float: none;';
-echo 'display: block;';
-echo 'text-align: left;';
-echo 'width: 100%;';
-echo 'margin: 0;';
-echo 'padding: 14px;';
-echo '}';
-echo '.topnav input[type=text] {';
-echo 'border: 1px solid #ccc;';
-echo '}';
-echo '}';
-echo '</style>';
-echo '</head>';
-echo '<body style="background-color:black">';
-echo '<div class="topnav"><b>';
-echo '<a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>';
-echo '<a href=""><i class="fa fa-fw fa-envelope"></i> Contact</a>';
-echo '<div class="search-container">';
-echo '<form action="/search">';
-echo '<input type="text" placeholder="Search.." name="search">';
-echo '<button type="submit"><b><font color="white"><i class="fa fa-search"></i></font></b></button>';
-echo '</form>';
-echo '</div>';
-echo '</b></div>';
-echo '<h1><center><font color="white"><b>Hello Welcome</b></font></center></h1>';
-echo '</body>';
-echo '</html>';
-?>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Naveed Nilawfar</title>
+		<meta>
+			<link rel='icon' type='image/x-icon' href='favicon.ico' />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		</meta>
+		<style>
+			* {box-sizing: border-box;}
+			.topnav {
+				background-color: #333;
+				overflow: hidden;
+			}
+			.topnav a {
+				float: left;
+				color: #FFFFFF;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+			.topnav a:hover {
+				background-color: #000000;
+				color: white;
+			}
+			.topnav a.active {
+				background-color: #00FF00;
+				color: black;
+			}
+			.topnav .search-container {
+				float: right;
+			}
+			.topnav input[type=text] {
+				padding: 6px;
+				margin-top: 8px;
+				font-size: 17px;
+				border: none;
+			}
+			.topnav .search-container button {
+				float: right;
+				padding: 6px 10px;
+				margin-top: 8px;
+				margin-right: 16px;
+				background: #333;
+				font-size: 17px;
+				border: none;
+				cursor: pointer;
+			}
+			.topnav .search-container button:hover {
+				background: #ccc;
+			}
+			@media screen and (max-width: 600px) {
+				.topnav .search-container {
+					float: none;
+				}
+					.topnav a, .topnav input[type=text], .topnav .search-container button {
+						float: none;
+						display: block;
+						text-align: left;
+						width: 100%;
+						margin: 0;
+						padding: 14px;
+					}
+					.topnav input[type=text] {
+						border: 1px solid #ccc;  
+					}
+			}
+		</style>
+	</head>
+	<body style="background-color:black">
+		<div class="topnav"><b>
+			<a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href=""><i class="fa fa-fw fa-envelope"></i> Contact</a>
+			<div class="search-container">
+				<form action="/search">
+					<input type="text" placeholder="Search.." name="search">
+					<button type="submit"><b><font color="white"><i class="fa fa-search"></i></font></b></button>
+				</form>
+			</div>
+		</b></div>
+		<h1><center><font color="white"><b>Hello Welcome</b></font></center></h1>
+	</body>
+</html>
