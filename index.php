@@ -70,12 +70,10 @@
 	</head>
 	<body style="background-color:black">
 		<div class="topnav"><b>
-			<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-			<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+			<a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a>
 			<a href=""><i class="fa fa-fw fa-envelope"></i> Contact</a>
-			<a href="/user/login.html"><i class="fa fa-fw fa-user"></i>Login</a>
 			<div class="search-container">
-				<form action="/.php">
+				<form action="/search">
 					<input type="text" placeholder="Search.." name="search">
 					<button type="submit"><b><font color="white"><i class="fa fa-search"></i></font></b></button>
 				</form>
