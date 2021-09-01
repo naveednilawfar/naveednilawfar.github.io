@@ -12,13 +12,16 @@ body {
 	text-shadow:1px 1px 0 #444;
 }
 #logo {
-	color: #000;
+	color: #FFFFFF;
 	font-weight: bolder;
-	background-color: green;
+	background-color: transparent;
 	width: 400px;
-	border: 4px solid #green;
 	margin: auto;
+	position: relative;
 	font-family: monospace;
+}
+#logo:hover {
+	color: gray;
 }
 pre {
     display: block;
@@ -27,10 +30,10 @@ pre {
     margin: 1em 0px;
 }
 .mobile-container {
-  max-width: 480px;
+  max-width: 100%;
   margin: auto;
   background-color: transparent;
-  height: 500px;
+  height: 10%;
   color: white;
   border-radius: 10px;
 }
