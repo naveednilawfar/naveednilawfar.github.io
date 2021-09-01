@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 body {
-	background-color: #000000 url(https://naveednilawfar.github.io/img/background.jpg) no-repeat bottom center;
+	background: #000000 url(https://naveednilawfar.github.io/img/background.jpg) no-repeat bottom center;
 }
 .topnav {
 	background-color: #333;
