@@ -9,6 +9,9 @@ body {
     color: #fff;
 	text-shadow:1px 1px 0 #444;
 }
+#logo {
+	color: green;
+}
 .topnav {
 	background-color: #333;
 	overflow: hidden;
