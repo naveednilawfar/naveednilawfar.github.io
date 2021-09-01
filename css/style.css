@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 body {
-	background-color: black url(/img/background.jpg) top center;
+	background-color: black url(/img/background.jpg) no-repeat bottom center;
 }
 .topnav {
 	background-color: #333;
