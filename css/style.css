@@ -13,6 +13,9 @@ body {
 }
 #logo {
 	color: #FFFFFF;
+	/*align-self: center;*/
+	width: 70%;
+	height: 15px;
 	font-family: monospace;
 }
 pre {
