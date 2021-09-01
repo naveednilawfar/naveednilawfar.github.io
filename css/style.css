@@ -12,8 +12,10 @@ body {
 	text-shadow:1px 1px 0 #444;
 }
 #logo {
-	color: #000000;
-	/*align-self: center;*/
+	color: #000;
+	font-weight: bolder;
+	align-self: center;
+	background-color: green;
 	width: 70%;
 	height: 15px;
 	font-family: monospace;
