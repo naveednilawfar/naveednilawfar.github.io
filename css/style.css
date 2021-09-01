@@ -14,11 +14,8 @@ body {
 #logo {
 	color: #000;
 	font-weight: bolder;
-	align-self: center;
 	background-color: transparent;
-	width: 300px;
-	border: 3px solid green;
-	padding: 50px;
+	width: 400px;
 	margin: auto;
 	font-family: monospace;
 }
