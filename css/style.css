@@ -12,7 +12,8 @@ body {
 	text-shadow:1px 1px 0 #444;
 }
 #logo {
-	color: green;
+	color: #FFFFFF;
+	font-family: monospace;
 }
 pre {
     display: block;
