@@ -11,6 +11,10 @@ body {
     color: #fff;
 	text-shadow:1px 1px 0 #444;
 }
+.white-box {
+    background-color: white;
+    color: black;
+}
 #logo {
 	color: #FFFFFF;
 	font-weight: bolder;
