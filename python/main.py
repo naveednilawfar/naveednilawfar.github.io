@@ -1,5 +1,6 @@
 from browser import document, window, alert
 import random 
+import pyautogui
 
 def sketch(p): 
   #this p is needed. it will be the processing sketch itself.
