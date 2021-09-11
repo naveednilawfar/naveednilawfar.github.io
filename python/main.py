@@ -1,6 +1,5 @@
 from browser import document, window, alert
-import random 
-import keyboard
+import random
 
 def sketch(p): 
   #this p is needed. it will be the processing sketch itself.
