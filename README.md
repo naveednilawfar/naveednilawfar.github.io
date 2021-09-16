@@ -1,7 +1,7 @@
 naveednilawfar.github.io
 ------------------------
 
-This repo is the source code of https://naveednilawfar.github.io/
+This repo is the source code of <a href="https://naveednilawfar.github.io/" target="_blank">https://naveednilawfar.github.io</a>
 
 
 LICENSE
