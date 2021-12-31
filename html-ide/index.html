@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML IDE</title>
+    <link rel="stylesheet" href="/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header" >IDE for HTML by <a href="https://naveednilawfar.github.io">Naveed</a></div>
+        <div class="tool-bar">
+            <button class="tbbtn" onclick="toolbar('newcode')"><i class="fa fa-file"></i></button>
+            <button class="tbbtn" onclick="toolbar('runcode')"><i class="fa fa-play"></i></button>
+            <button class="tbbtn" onclick="toolbar('openfile')"><i class="fa fa-file-text"></i></button>
+            <button class="tbbtn" onclick="toolbar('savecode')"><i class="fa fa-save"></i></button>
+        </div>
+        <div class="etab">
+            <button class="tbtn activetb" id="htmltbtn" onclick="chetb('html')">HTML</button>
+            <button class="tbtn" id="csstbtn" onclick="chetb('css')">CSS</button>
+            <button class="tbtn" id="jstbtn" onclick="chetb('js')">JavaScript</button>
+        </div>
+        <div class="edt-text">HTML</div>
+        <div class="edt-cont">
+            <div class="editor" id="htmleditor"></div>
+            <div class="editor" id="csseditor"></div>
+            <div class="editor" id="jseditor"></div>
+        </div>
+        <script src="/js/jquery.js"></script>
+        <script src="/js/lib/ace.js"></script>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

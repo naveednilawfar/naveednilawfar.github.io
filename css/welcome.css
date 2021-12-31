@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    background-color: black;
+    background-image: url("/img/blackbg.jpg");
+    color: rgb(141, 148, 141);
+    width: 100%;
+    height: 100%;
+}
+.welcome-desktop {
+    background-color: black;
+    color: rgb(7, 167, 7);
+}
+.welcome-tablet {
+    background-color: black;
+    color: rgb(7, 167, 7);
+}
+.welcome-mobile {
+    background-color: black;
+    color: rgb(7, 167, 7);
+}
